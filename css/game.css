@@ -6,24 +6,17 @@
 }
 
 #turn {
-    background-color: rgba(1, 223, 148, 0.9);
-    color: rgb(21, 32, 50);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    margin: 2rem auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 39px;
-    width: 180px;
-    text-align: center;
+    color: #74fea9;
+    margin: 0 auto;
     font-weight: bold;
+    font-size: 1.25rem;
 }
 
 #game-over {
     width: 90%;
     max-width: 40rem;
     margin: auto;
+    margin-bottom: 2rem;
     padding: 1rem 2rem;
     background-color: rgb(1,223,148,0.9);
     color: #152032;
