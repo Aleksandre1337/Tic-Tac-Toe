@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="overlays.css">
-    <link rel="stylesheet" href="configuration.css">
-    <link rel="stylesheet" href="game.css">
-    <script src="game.js" defer></script>
-    <script src="config.js" defer></script>
-    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/overlays.css">
+    <link rel="stylesheet" href="css/configuration.css">
+    <link rel="stylesheet" href="css/game.css">
+    <script src="js/game.js" defer></script>
+    <script src="js/config.js" defer></script>
+    <script src="js/app.js" defer></script>
 </head>
 <body>
     <div id="backdrop"></div>
@@ -39,7 +39,7 @@
                 <li>
                     <article id="player-1-data">
                         <h2>Player 1</h2>
-                        <h3>PlAYER NAME</h3>
+                        <h3>PLAYER NAME</h3>
                         <p class="player-symbol">X</p>
                         <button class="btn btn-alt" id="edit-player-1-btn" data-playerid="1">Edit</button>
                     </article>
@@ -47,7 +47,7 @@
                 <li>
                     <article id="player-2-data">
                     <h2>Player 2</h2>
-                    <h3>PlAYER NAME</h3>
+                    <h3>PLAYER NAME</h3>
                     <p class="player-symbol">O</p>
                     <button class="btn btn-alt" id="edit-player-2-btn" data-playerid="2">Edit</button>
                     </article>
@@ -62,7 +62,7 @@
                 <p>Click "Start new Game" above, to start a new game!</p>
             </article>
 
-            <p>It's your turn <span id="active-player-name">PLAYER NAME</span>!</p>
+            <p id="turn">It's your turn  <span id="active-player-name">PLAYER NAME</span>!</p>
             <ol id="game-board">
                 <li data-col="1" data-row="1"></li>
                 <li data-col="2" data-row="1"></li>
